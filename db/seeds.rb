@@ -24,7 +24,7 @@ Location.create(name: "Library", image: "assets/library.jpg")
 Location.create(name: "Corridor", image: "assets/corridor.jpg")
 Location.create(name: "Gryffindor Common Room", image: "assets/gryffindoorcommonroom.jpg")
 Location.create(name: "The Great Hall", image: "assets/pumpkingreathall.jpg")
-Location.create(name: "Slytherin Common Room", image: "slytherincommonroom.jpg")
+Location.create(name: "Slytherin Common Room", image: "assets/slytherincommonroom.jpg")
 
 # Location.create(name: "The Forbidden Forrest") 
 Creature.create(name: "Basilisk")
