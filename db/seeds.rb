@@ -20,22 +20,32 @@ User.create(name: "Draco Malfoy", house: slytherin)
 User.create(name: "Cedric Diggory", house: hufflepuff)
 User.create(name: "Hannah Abbott", house: hufflepuff)
 
-# Location.create(name: "Library", image: "assets/library.jpg")
-# Location.create(name: "Corridor", image: "assets/corridor.jpg")
-# Location.create(name: "Gryffindor Common Room", image: "assets/gryffindoorcommonroom.jpg")
-# Location.create(name: "The Great Hall", image: "assets/pumpkingreathall.jpg")
-# Location.create(name: "Slytherin Common Room", image: "assets/slytherincommonroom.jpg")
 
-# Location.create(name: "The Forbidden Forrest") 
 
-Creature.create(name: "Basilisk", image: "assets/basilisk.png")
-Creature.create(name: "Cockatrice", image: "assets/cockatrice.png")
-Creature.create(name: "Dementor", image: "assets/dementor.png")
-Creature.create(name: "Werewolf", image: "assets/werewolf.png")
-Creature.create(name: "Horntail", image: "assets/horntail.png")
+Creature.create(name: "Basilisk", image: "assets/basilisk.png", health: 10, points: 100)
+Creature.create(name: "Cockatrice", image: "assets/cockatrice.png", health: 3, points: 20)
+Creature.create(name: "Dementor", image: "assets/dementor.png", health: 10, points: 100)
+Creature.create(name: "Werewolf", image: "assets/werewolf.png", health: 7, points: 50)
+Creature.create(name: "Horntail", image: "assets/horntail.png", health: 7, points: 75)
 
 
 
-15.times do 
-  Spell.create(name: Faker::Movies::HarryPotter.unique.spell)
-end
+Spell.create(name: "Revelio", damage: 1)
+Spell.create(name: "Obliviate", damage: 3)
+Spell.create(name: "Avada Kedavra", damage: 7)
+Spell.create(name: "Stupefy", damage: 3)
+Spell.create(name: "Expelliarmus", damage: 2)
+Spell.create(name: "Wingardium Leviosa", damage: 1)
+Spell.create(name: "Sectumsempra", damage: 5)
+Spell.create(name: "Alohomora", damage: 1)
+Spell.create(name: "Crucio", damage: 7)
+Spell.create(name: "Riddikulus", damage: 2)
+Spell.create(name: "Accio", damage: 3)
+Spell.create(name: "Expecto Patronum", damage: 6)
+Spell.create(name: "Reparo", damage: 2)
+Spell.create(name: "Lumos", damage: 1)
+Spell.create(name: "Confundo", damage: 4)
+
+
+
+
