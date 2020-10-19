@@ -10,24 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_18_235105) do
+ActiveRecord::Schema.define(version: 2020_10_18_225651) do
 
   create_table "creatures", force: :cascade do |t|
     t.string "name"
+    t.integer "points"
+    t.integer "health"
     t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "encounters", force: :cascade do |t|
-    t.integer "user_id"
-    t.integer "creature_id"
-    t.integer "location_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["creature_id"], name: "index_encounters_on_creature_id"
-    t.index ["location_id"], name: "index_encounters_on_location_id"
-    t.index ["user_id"], name: "index_encounters_on_user_id"
   end
 
   create_table "houses", force: :cascade do |t|
@@ -37,21 +28,16 @@ ActiveRecord::Schema.define(version: 2020_10_18_235105) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "locations", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.string "image"
-  end
-
   create_table "spells", force: :cascade do |t|
     t.string "name"
+    t.integer "damage"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
+    t.integer "lives", default: 5
     t.integer "house_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
