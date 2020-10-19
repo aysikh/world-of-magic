@@ -6,10 +6,10 @@ Creature.destroy_all
 # Encounter.destroy_all
 
 
-gryffindor = House.create(name: "Gryffindor", points: 0)
-hufflepuff = House.create(name: "Hufflepuff", points: 0)
-slytherin = House.create(name: "Slytherin", points: 0)
-ravenclaw = House.create(name: "Ravenclaw", points: 0)
+# gryffindor = House.create(name: "Gryffindor", points: 0)
+# hufflepuff = House.create(name: "Hufflepuff", points: 0)
+# slytherin = House.create(name: "Slytherin", points: 0)
+# ravenclaw = House.create(name: "Ravenclaw", points: 0)
 
 User.create(name: "Harry Potter", house: gryffindor)
 User.create(name: "Hermione Granger", house: gryffindor)
