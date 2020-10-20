@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+* 10/20 to-do*
+
+1. make li's of students into links (for dropdown)
