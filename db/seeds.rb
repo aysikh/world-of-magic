@@ -30,21 +30,21 @@ Creature.create(name: "Horntail", image: "assets/horntail.png", health: 7, point
 
 
 
-Spell.create(name: "Revelio", damage: 1)
-Spell.create(name: "Obliviate", damage: 3)
-Spell.create(name: "Avada Kedavra", damage: 7)
-Spell.create(name: "Stupefy", damage: 3)
-Spell.create(name: "Expelliarmus", damage: 2)
-Spell.create(name: "Wingardium Leviosa", damage: 1)
-Spell.create(name: "Sectumsempra", damage: 5)
-Spell.create(name: "Alohomora", damage: 1)
-Spell.create(name: "Crucio", damage: 7)
-Spell.create(name: "Riddikulus", damage: 1)
-Spell.create(name: "Accio", damage: 3)
-Spell.create(name: "Expecto Patronum", damage: 6)
-Spell.create(name: "Reparo", damage: 2)
-Spell.create(name: "Lumos", damage: 1)
-Spell.create(name: "Confundo", damage: 4)
+Spell.create(name: "Revelio", damage: 1, image: "assets/spells/spell1.gif")
+Spell.create(name: "Obliviate", damage: 3, image: "assets/spells/spell6.gif")
+Spell.create(name: "Avada Kedavra", damage: 7, image: "assets/spells/spell13.gif")
+Spell.create(name: "Stupefy", damage: 3, image: "assets/spells/spell11.gif")
+Spell.create(name: "Expelliarmus", damage: 2, image: "assets/spells/spell8.gif")
+Spell.create(name: "Wingardium Leviosa", damage: 1, image: "assets/spells/spell11.gif")
+Spell.create(name: "Sectumsempra", damage: 5, image: "assets/spells/spell7.gif")
+Spell.create(name: "Alohomora", damage: 1, image: "assets/spells/spell5.gif")
+Spell.create(name: "Crucio", damage: 7, image: "assets/spells/spell1.gif")
+Spell.create(name: "Riddikulus", damage: 1, image: "assets/spells/spell1.gif")
+Spell.create(name: "Accio", damage: 3, image: "assets/spells/spell10.gif")
+Spell.create(name: "Expecto Patronum", damage: 6, image: "assets/spells/spell12.gif")
+Spell.create(name: "Reparo", damage: 2, image: "assets/spells/spell1.gif")
+Spell.create(name: "Lumos", damage: 1, image: "assets/spells/spell6.gif")
+Spell.create(name: "Confundo", damage: 4, image: "assets/spells/spell9.gif")
 
 
 
